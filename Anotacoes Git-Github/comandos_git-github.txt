@@ -1,0 +1,48 @@
+sha1 crie a chave de 40 caracteres.
+comando: openssl sha1 texto.txt (exemplo)
+
+
+criar uma chave pelo terminal git bash
+windows/linux - exemplo: ssh-keygen -t ed25519 -c fulano@gmail.com
+
+copiar a chave:
+cat id_ed25519.pub
+copia e cola no github
+
+gerando o agente
+eval $(ssh-agent -s)
+
+entregando a chave pro agente
+ssh-add id_ed25519
+
+clonar repositorio
+ex.: git clone git@github.com:fulano/fulano.github.io.git
+
+iniciar repositorio
+git init
+
+mostrar arquivos ocultos
+ls -a
+
+configurar
+git config --global user.email "fulano@gmail.com"
+git config --global user.name "fulano"
+
+adicionar arquivos
+git add *
+
+comitar
+git commit -m "commit inicial"
+
+status
+git status
+
+mandar pro github
+git remote add origin https://github.com/jaquel1ne/livro-receitas.git
+
+lista os arquivos no repositorio
+git remome -v
+
+força o envio
+git push origin master
+

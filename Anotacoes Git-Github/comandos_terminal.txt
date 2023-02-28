@@ -1,0 +1,21 @@
+limpar terminal:
+windows - cls
+linux - clear ou ctrl+l
+
+listar terminal:
+windows - dir
+linux - ls
+
+criar pasta pelo terminal:
+windows e linux - mkdir
+
+saída:
+windows e linux - echo
+
+deletar:
+windows del - deleta somente os arquivos dentro da pasta
+rmdir /S /Q deleta o diretorio
+linux - rm -rf
+
+mover
+mv file.txt ./pasta
